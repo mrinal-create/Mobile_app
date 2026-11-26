@@ -11,6 +11,7 @@
       "bundleIdentifier": "com.anonymous.chat-app"
     },
     "android": {
+      "package": "com.mrinal9090.chatapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -40,6 +41,12 @@
         }
       ],
       "expo-status-bar"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9a3c6fcc-f00e-4219-9a9b-eaddba8e1183"
+      }
+    },
+    "owner": "mrinal9090"
   }
 }
